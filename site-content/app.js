@@ -16,14 +16,31 @@ function savePlayersToLocalStorage() {
   localStorage.setItem('players', JSON.stringify(players));
 }
 
+// Function to add event listener to contenteditable elements
+function addContentEditableListeners() {
+  const contentEditableElements = document.querySelectorAll('[contenteditable]');
+
+  contentEditableElements.forEach((element) => {
+    element.addEventListener('input', function () {
+      // Update the corresponding player's name or role based on the edited contenteditable element
+      const playerId = element.closest('.player-box').dataset.playerId;
+      const property = element.classList.contains('player-name') ? 'name' : 'role';
+      players[playerId][property] = element.innerText;
+
+      // Save players to localStorage
+      savePlayersToLocalStorage();
+    });
+  });
+}
+
 // Function to update the player list in the HTML
 function updatePlayerList() {
   var contentContainer = document.getElementById('player-list');
   contentContainer.innerHTML = ""; // Clear the container before updating
 
-  players.forEach(function(player) {
+  players.forEach(function (player, index) {
     var playerBox = `
-    <div class="player-box">
+    <div class="player-box" data-player-id="${index}">
       <div class="player-avatar">
         <img src="./amalthea.png" style="height: 100%; width: 100%;">
       </div>
@@ -36,6 +53,9 @@ function updatePlayerList() {
 
     contentContainer.innerHTML += playerBox;
   });
+
+  // Add event listeners to contenteditable elements after updating the player list
+  addContentEditableListeners();
 }
 
 document.getElementById('button-add-player').addEventListener('click', function() {
