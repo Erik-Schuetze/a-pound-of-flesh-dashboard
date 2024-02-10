@@ -1,0 +1,176 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-polygon {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(238, 0, 140);
+  clip-path: polygon(0 0, 0 10vh, 35vw 10vh, 40vw 5vh, 90vw 5vh, 95vw 10vh, 100vw 10vh, 100vw 0);
+}
+
+.header-row {
+  width: 5vw;
+}
+
+.header-text {
+  margin-left: 5vw;
+  height: 10vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 7vh;
+  font-family: 'Edition';
+}
+
+.dash-line {
+  font-size: 2vh;
+  font-family: 'Designer';
+}
+
+.flex-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-spacer {
+  height: 5vh;
+}
+
+.footer-spacer {
+  height: 5vh;
+}
+
+.content {
+  height: 90vh;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+}
+
+.footer-polygon {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(238, 0, 140);
+  clip-path: polygon(0 50%, 90% 50%, 95% 0, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-menu {
+  padding-left: 2vw;
+  padding-top: 5vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-text {
+  margin-right: 10vw;
+  padding-top: 5vh;
+  text-align: right;
+  height: 10vh;
+  width: 50vw;
+}
+
+.footer-tagline {
+  font-size: 2.5vh;
+  font-family: 'Versatylo Rounded';
+}
+
+.player-list {
+  margin-top: 5vh;
+  width: 35vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.player-box {
+  padding-left: 2vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.player-avatar {
+  background-color: silver;
+  height:10vh;
+  width: 10vh;
+}
+
+.player-info {
+  padding-left: 1vh;
+  display: flex;
+  flex-direction: column;
+  color:rgb(238, 0, 140)
+}
+
+.player-name {
+  font-size: 5vh;
+  font-family: 'Edition';
+  color: white;
+}
+
+.player-role {
+  font-size: 3vh;
+  font-family: 'Edition';
+  font-weight: bolder;
+}
+
+.map {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-gap {
+  width: 5vw;
+}
+
+.menu-button {
+  height: 3vh;
+  width: 3vh;
+  background-color: black;
+  color: rgb(238, 0, 140);
+  border: none;
+  text-align: center;
+  font-size: 3vh;
+  font-family: 'Designer';
+  margin-right: 2vw;
+}

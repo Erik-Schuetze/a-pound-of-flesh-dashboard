@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: 'a-pound-of-flesh-nginx'
+    ports:
+      - '8888:80'
+    volumes:
+      - './site-content:/usr/share/nginx/html'
+    image: 'nginx:latest'
