@@ -174,3 +174,27 @@ p {
   font-family: 'Designer';
   margin-right: 2vw;
 }
+
+@font-face {
+  font-family: 'Edition';
+  src: url('./local-fonts/Edition.woff2') format('woff2'), /* Specify the path to your font files */
+       url('./local-fonts/Edition.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Designer';
+  src: url('./local-fonts/Designer.woff2') format('woff2'),
+       url('./local-fonts/Designer.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Versatylo Rounded';
+  src: url('./local-fonts/VersatyloRounded.woff2') format('woff2'),
+       url('./local-fonts/VersatyloRounded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
