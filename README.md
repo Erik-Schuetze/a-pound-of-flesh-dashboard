@@ -3,6 +3,14 @@
 ### Description
 WIP
 
+### How to use
+```
+git clone
+cd a-pound-of-flesh-dashboard
+docker compose up -d
+```
+open a browser on https://localhost:8888
+
 ### Features
 - saves data to local browser storage
 - data can be exported and imported for persistenxy
