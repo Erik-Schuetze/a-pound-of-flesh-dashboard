@@ -13,10 +13,18 @@ function updateFact() {
     const currentFact = facts[currentFactIndex];
     
     var contentContainer = document.getElementById('header-facts');
-    contentContainer.innerHTML = ""; // Clear the container before updating
     
-    contentContainer.innerHTML = currentFact;
-    console.log("Updating facts:", currentFact);
+    // Fade out the current content
+    contentContainer.style.opacity = 0;
+
+    setTimeout(function () {
+        // Update the content
+        contentContainer.innerHTML = currentFact;
+        
+        // Fade in the new content
+        contentContainer.style.opacity = 1;
+        console.log("Updating facts:", currentFact);
+    }, 1000); // Adjust the delay according to your preference
 
     // Increment the fact index and loop back to the beginning if needed
     currentFactIndex = (currentFactIndex + 1) % facts.length;
@@ -32,7 +40,7 @@ function startUpdatingFacts() {
         setTimeout(function () {
         updateFact();
         loop(); // Call loop again for the next iteration
-        }, 5000);
+        }, 10000);
     }
 
     loop();

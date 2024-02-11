@@ -52,10 +52,12 @@ p {
   align-items: center;
   font-family: 'Versatylo Rounded';
   font-size: 2vh;
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 1s ease; /* Add transition property */
 }
 
 .title {
-  font-size: 7vh;
+  font-size: 7.2vh;
   font-family: 'Edition';
 }
 
