@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>A Pound of Flesh</title>
-	<script src="app.js" defer></script>
+	<script src="menu-buttons.js" defer></script>
+	<script src="navigate-main-menu.js" defer></script>
+	<script src="header-facts.js" defer></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +15,8 @@
 				<p class="title">Prospero's Dream</p>
 				<p class="dash-line">//////////////////////////</p>
 			</div>
+			<div class="header-facts" id="header-facts">
+			</div>
 		</div>
 	</div>
 
@@ -21,11 +25,11 @@
 		<div class="content">
 			<div class="player-list" id="player-list">
 			</div>
-			<div class="main-display">
-				<img src="images/map.png" class="map">
+			<div class="main-display" id="main-display">
 			</div>
 			<div class="right-gap">
 				<img src="images/arrow-up.svg" class="nav-button" id="nav-up" alt="navigate up">
+				<div id="nav-bar"></div>
 				<img src="images/arrow-down.svg" class="nav-button" id="nav-down" alt="navigate down">
 			</div>
 		</div>
