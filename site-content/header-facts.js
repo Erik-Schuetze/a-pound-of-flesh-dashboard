@@ -23,7 +23,6 @@ function updateFact() {
         
         // Fade in the new content
         contentContainer.style.opacity = 1;
-        console.log("Updating facts:", currentFact);
     }, 1000); // Adjust the delay according to your preference
 
     // Increment the fact index and loop back to the beginning if needed
