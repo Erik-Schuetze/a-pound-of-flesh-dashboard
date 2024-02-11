@@ -166,13 +166,8 @@ p {
 .menu-button {
   height: 3vh;
   width: 3vh;
-  background-color: black;
-  color: rgb(238, 0, 140);
   border: none;
-  text-align: center;
-  font-size: 3vh;
-  font-family: 'Designer';
-  margin-right: 2vw;
+  margin-right: 1.5vw;
 }
 
 @font-face {
