@@ -42,7 +42,7 @@ function updatePlayerList() {
     var playerBox = `
     <div class="player-box" data-player-id="${index}">
       <div class="player-avatar">
-        <img src="./avatar.png" style="height: 100%; width: 100%;">
+        <img src="images/avatar.png" style="height: 100%; width: 100%;">
       </div>
       <div class="player-info">
         <p class="dash-line">//////////////////////////</p>

@@ -153,14 +153,31 @@ p {
   font-weight: bolder;
 }
 
-.map {
+.main-display {
   width: 60vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+.map {
+  max-width: 60vw; 
+  max-height: 90vh;
+}
+
 .right-gap {
+  padding: 6vh 0 6vh 0;
   width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button {
+  width: 3vw;
+  height: 3vw;
 }
 
 .menu-button {

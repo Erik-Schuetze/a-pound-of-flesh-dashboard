@@ -21,10 +21,13 @@
 		<div class="content">
 			<div class="player-list" id="player-list">
 			</div>
-			<div class="map">
-				<img src="./map.png" style="max-width: 60vw; max-height: 90vh;">
+			<div class="main-display">
+				<img src="images/map.png" class="map">
 			</div>
-			<div class="right-gap"></div>
+			<div class="right-gap">
+				<img src="images/arrow-up.svg" class="nav-button" id="nav-up" alt="navigate up">
+				<img src="images/arrow-down.svg" class="nav-button" id="nav-down" alt="navigate down">
+			</div>
 		</div>
 		<div class="footer-spacer"></div>
 	</div>
@@ -32,10 +35,10 @@
 	<div class="footer">
 		<div class="footer-polygon">
 			<div class="footer-menu">
-				<img src="plus.svg" class="menu-button" id="button-add-player" alt="Add Player">
-				<img src="minus.svg" class="menu-button" id="button-remove-player" alt="Delete Player">
-				<img src="export.svg" class="menu-button" id="button-export-players" alt="Export Player Data">
-				<img src="import.svg" class="menu-button" id="button-import-players" alt="Import Players from JSON File">
+				<img src="images/plus.svg" class="menu-button" id="button-add-player" alt="Add Player">
+				<img src="images/minus.svg" class="menu-button" id="button-remove-player" alt="Delete Player">
+				<img src="images/cloud-down.svg" class="menu-button" id="button-export-players" alt="Export Player Data">
+				<img src="images/cloud-up.svg" class="menu-button" id="button-import-players" alt="Import Players from JSON File">
 				<input type="file" id="input-import-players" accept=".json" style="display: none;">
 			</div>
 			<div class="footer-text">
