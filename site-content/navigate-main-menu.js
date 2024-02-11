@@ -5,12 +5,12 @@ var menuViewCode = [
     '<img src="images/map2.png" class="map">',
     `
     <div class="rules">
-        <h style="font-size: 4vh;">Rules</h>
-        <p>Have your O2-Credstick on you at all times.<br>Your movements are tracked.</p>
-        <p>One day of Oxygen onboard this station costs 10cr/day.</p>
-        <p>Do not enter unauthorized areas. particularly The Choke!</p>
-        <p>Contraband List: laser cutters, explosives, signal jammers, contagious bioweapons, EMP tech. <br>(This list is subject to change.)</p>
-        <p>You can keep non-hull piercing weapons, but other weapons must be stowed in a rented locker (1cr/day/weapon). The key is tagged to the renter’s fingerprint, so don’t lose it.</p>
+        <h style="font-size: 4.5vh;">Rules</h>
+        <div>Have your O2-Credstick on you at all times.<br>Your movements are tracked.</div>
+        <div>One day of Oxygen onboard this station costs 10cr/day.</div>
+        <div>Do not enter unauthorized areas. particularly The Choke!</div>
+        <div>Contraband List: laser cutters, explosives, signal jammers, contagious bioweapons, EMP tech. <br>(This list is subject to change.)</div>
+        <div>You can keep non-hull piercing weapons, but other weapons must be stowed in a rented locker (1cr/day/weapon). The key is tagged to the renter’s fingerprint, so don’t lose it.</div>
     </div>
     `
 ]   

@@ -61,7 +61,7 @@ function updatePlayerList() {
 document.getElementById('button-add-player').addEventListener('click', function() {
   if (player_count < 8) {
     player_count++;
-    var newPlayer = { name: `Player ${player_count}`, role: 'Class / Description' };
+    var newPlayer = { name: 'Player', role: 'Class / Description' };
     players.push(newPlayer);
 
     // Update the player list in the HTML
