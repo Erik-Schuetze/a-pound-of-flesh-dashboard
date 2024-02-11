@@ -24,4 +24,4 @@ open a browser on https://localhost:8888
 - design improvements
 
 ### Screenshot
-![image](https://github.com/Erik-Schuetze/a-pound-of-flesh-dashboard/assets/44951681/c7eadfa8-16cd-40a8-a0ce-21694082201a)
+![image](https://github.com/Erik-Schuetze/a-pound-of-flesh-dashboard/assets/44951681/8e62c01d-96d8-4334-9329-0bde8fb90e11)
