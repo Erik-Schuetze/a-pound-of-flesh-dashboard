@@ -2,6 +2,8 @@ let player_count = 0;
 let players = [];
 
 
+
+
 // Function to load players from localStorage on page load
 function loadPlayersFromLocalStorage() {
   var storedPlayers = localStorage.getItem('players');

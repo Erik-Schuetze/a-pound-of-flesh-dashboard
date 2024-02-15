@@ -56,6 +56,16 @@ p {
   transition: opacity 1s ease; /* Add transition property */
 }
 
+.header-logo {
+  height: 10vh;
+  width: 7vw;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .title {
   font-size: 7.2vh;
   font-family: 'Edition';
@@ -180,6 +190,7 @@ p {
 .map {
   max-width: 58vw; 
   max-height: 88vh;
+  width: 100%;
 }
 
 .right-gap {
