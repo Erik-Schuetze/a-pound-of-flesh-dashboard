@@ -1,8 +1,7 @@
 let currentView = 0;
 
 var menuViewCode = [
-    '<img src="images/map.png" class="map">',
-    '<img src="images/map2.png" class="map">',
+    '',
     `
     <div class="rules">
         <h style="font-size: 4.5vh;">Rules</h>
@@ -13,9 +12,12 @@ var menuViewCode = [
         <div>You can keep non-hull piercing weapons, but other weapons must be stowed in a rented locker (1cr/day/weapon). The key is tagged to the renter’s fingerprint, so don’t lose it.</div>
     </div>
     `,
+    '<img src="images/map.png" class="map">',
+    '<img src="images/map2.png" class="map">',
     '<img src="images/the-court.png" class="map">',
     '<img src="images/the-farm.png" class="map">',
-    '<img src="images/the-stellar-burn.png" class="map">',
+    '<img src="images/canyonheavy-market.png" class="map">',
+    '<img src="images/the-stellar-burn.png" class="map">'
 ]   
 
 function updateMainView(){
