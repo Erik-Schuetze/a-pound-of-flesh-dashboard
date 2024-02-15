@@ -4,6 +4,7 @@
 WIP
 
 ### How to use
+Prerequisite: docker
 ```
 git clone
 cd a-pound-of-flesh-dashboard
@@ -14,12 +15,13 @@ open a browser on https://localhost:8888
 ### Features
 - saves data to local browser storage
 - data can be exported and imported for persistenxy
+- shows facts about the station at the top of the screen
+- features 2 map views and the law on the station
 
 ### Roadmap
 - add image uploading and saving along with exporting
-- add more info like O2 tax to screen
 - improve map
 - design improvements
 
 ### Screenshot
-![image](https://github.com/Erik-Schuetze/a-pound-of-flesh-dashboard/assets/44951681/c7eadfa8-16cd-40a8-a0ce-21694082201a)
+![image](https://github.com/Erik-Schuetze/a-pound-of-flesh-dashboard/assets/44951681/8e62c01d-96d8-4334-9329-0bde8fb90e11)
