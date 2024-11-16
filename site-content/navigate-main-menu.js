@@ -17,7 +17,10 @@ var menuViewCode = [
     '<img src="images/the-court.png" class="map">',
     '<img src="images/the-farm.png" class="map">',
     '<img src="images/canyonheavy-market.png" class="map">',
-    '<img src="images/the-stellar-burn.png" class="map">'
+    '<img src="images/the-stellar-burn.png" class="map">',
+    '<img src="images/cyberware1.png" class="map">',
+    '<img src="images/cyberware2.png" class="map">',
+    '<img src="images/slickware.png" class="map">'
 ]   
 
 function updateMainView(){
