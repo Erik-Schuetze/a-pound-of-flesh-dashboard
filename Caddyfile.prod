@@ -1,0 +1,5 @@
+a-pound-of-flesh.com, www.a-pound-of-flesh.com {
+    # Serve over HTTPS (Caddy automatically handles this)
+    root * /usr/share/caddy
+    file_server
+}

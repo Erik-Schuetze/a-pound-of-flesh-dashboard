@@ -1,10 +1,11 @@
 version: '3'
-
 services:
-  nginx:
-    container_name: 'a-pound-of-flesh-nginx'
+  caddy:
+    build:
+      context: .
+      args:
+        CADDYFILE: Caddyfile.dev
     ports:
-      - '8888:80'
+      - "8080:80"
     volumes:
-      - './site-content:/usr/share/nginx/html'
-    image: 'nginx:latest'
+      - ./site-content:/usr/share/caddy
